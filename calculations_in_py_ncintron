@@ -1,0 +1,33 @@
+#Lab 1
+
+
+principal_amount = int(input("Enter the principal amount (P): "))
+rate_of_interest = int(input("Enter the rate of interest (R): "))
+time_period = int(input("Enter the period (in years): "))
+
+simple_interest = ((principal_amount * rate_of_interest * time_period) / 100)
+
+print(f"The simple interest is: {simple_interest}")
+
+#Lab 2
+
+weight = float(input( "Enter your weight (kg): "))
+height = float(input("Enter your height (m): "))
+bMi = (weight / (height**2))
+
+min = 18.5
+max = 24.9
+print(f"Your BMI is: {bMi}")
+if  min <= bMi <= max:
+    print("You are within the healthy BMI range.")
+else:
+    print("You are not within the healthy BMI range.")
+
+#Lab 3
+
+cel  = float(input("Enter the temperature in Celsius: "))
+far = (cel * (9/5) +32)
+print(f"The temperature in Fahrenheit is: {far}")
+
+
+
